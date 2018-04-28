@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     
     let baseURL = "https://swapi.co/api/"
     let getPersonEndPoint = "people/1/"
-        
+    
+    // No hola
+
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var heightLabel: UILabel!
     @IBOutlet weak var massLabel: UILabel!
