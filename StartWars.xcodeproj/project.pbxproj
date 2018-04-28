@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085C25EE1C5F4E27C6D3F736 /* Pods_StartWarsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1525FFB7A96CBDF2C21C9C87 /* Pods_StartWarsTests.framework */; };
 		088565F3208B88E4008FACCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088565F2208B88E4008FACCC /* AppDelegate.swift */; };
 		088565F5208B88E4008FACCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088565F4208B88E4008FACCC /* ViewController.swift */; };
 		088565F8208B88E4008FACCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088565F6208B88E4008FACCC /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		088565FD208B88E4008FACCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088565FB208B88E4008FACCC /* LaunchScreen.storyboard */; };
 		08856608208B88E5008FACCC /* StartWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08856607208B88E5008FACCC /* StartWarsTests.swift */; };
 		08856613208B88E5008FACCC /* StartWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08856612208B88E5008FACCC /* StartWarsUITests.swift */; };
+		8D4E7496FDB3B1431D9AFE1C /* Pods_StartWars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBE9168CD8B74D2085734B8 /* Pods_StartWars.framework */; };
+		AEE250CF8947F66A8947E1FB /* Pods_StartWarsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9CC31AD322EE07E8EC8A02 /* Pods_StartWarsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		0885660E208B88E5008FACCC /* StartWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StartWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08856612208B88E5008FACCC /* StartWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWarsUITests.swift; sourceTree = "<group>"; };
 		08856614208B88E5008FACCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1525FFB7A96CBDF2C21C9C87 /* Pods_StartWarsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StartWarsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5635E3DD38CF02B4587B3261 /* Pods-StartWarsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StartWarsUITests/Pods-StartWarsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		57AEFAC2871E83C1F626D67A /* Pods-StartWars.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWars.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StartWars/Pods-StartWars.debug.xcconfig"; sourceTree = "<group>"; };
+		6559DF2EAC27BCCED73DDCFE /* Pods-StartWarsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StartWarsTests/Pods-StartWarsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C171702908F7E2B620FC130 /* Pods-StartWarsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StartWarsUITests/Pods-StartWarsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76E36A3FFD1E70032FBB26B2 /* Pods-StartWars.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWars.release.xcconfig"; path = "Pods/Target Support Files/Pods-StartWars/Pods-StartWars.release.xcconfig"; sourceTree = "<group>"; };
+		9CBE9168CD8B74D2085734B8 /* Pods_StartWars.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StartWars.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34865523642C44FB5B40AA0 /* Pods-StartWarsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartWarsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StartWarsTests/Pods-StartWarsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD9CC31AD322EE07E8EC8A02 /* Pods_StartWarsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StartWarsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4E7496FDB3B1431D9AFE1C /* Pods_StartWars.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				085C25EE1C5F4E27C6D3F736 /* Pods_StartWarsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE250CF8947F66A8947E1FB /* Pods_StartWarsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				08856606208B88E5008FACCC /* StartWarsTests */,
 				08856611208B88E5008FACCC /* StartWarsUITests */,
 				088565F0208B88E4008FACCC /* Products */,
+				5830CE5073E625653260B1A9 /* Pods */,
+				50514E3AA1EAB3B70B8F409C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = StartWarsUITests;
 			sourceTree = "<group>";
 		};
+		50514E3AA1EAB3B70B8F409C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CBE9168CD8B74D2085734B8 /* Pods_StartWars.framework */,
+				1525FFB7A96CBDF2C21C9C87 /* Pods_StartWarsTests.framework */,
+				BD9CC31AD322EE07E8EC8A02 /* Pods_StartWarsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5830CE5073E625653260B1A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57AEFAC2871E83C1F626D67A /* Pods-StartWars.debug.xcconfig */,
+				76E36A3FFD1E70032FBB26B2 /* Pods-StartWars.release.xcconfig */,
+				A34865523642C44FB5B40AA0 /* Pods-StartWarsTests.debug.xcconfig */,
+				6559DF2EAC27BCCED73DDCFE /* Pods-StartWarsTests.release.xcconfig */,
+				6C171702908F7E2B620FC130 /* Pods-StartWarsUITests.debug.xcconfig */,
+				5635E3DD38CF02B4587B3261 /* Pods-StartWarsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08856617208B88E5008FACCC /* Build configuration list for PBXNativeTarget "StartWars" */;
 			buildPhases = (
+				BC091CDE2114D2A4EDB51457 /* [CP] Check Pods Manifest.lock */,
 				088565EB208B88E4008FACCC /* Sources */,
 				088565EC208B88E4008FACCC /* Frameworks */,
 				088565ED208B88E4008FACCC /* Resources */,
+				47CCE08792B23D7D33E8AAEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0885661A208B88E5008FACCC /* Build configuration list for PBXNativeTarget "StartWarsTests" */;
 			buildPhases = (
+				0A3EEB442B81C37C3D91F0D7 /* [CP] Check Pods Manifest.lock */,
 				088565FF208B88E5008FACCC /* Sources */,
 				08856600208B88E5008FACCC /* Frameworks */,
 				08856601208B88E5008FACCC /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0885661D208B88E5008FACCC /* Build configuration list for PBXNativeTarget "StartWarsUITests" */;
 			buildPhases = (
+				97BC322692A1E62665F0B473 /* [CP] Check Pods Manifest.lock */,
 				0885660A208B88E5008FACCC /* Sources */,
 				0885660B208B88E5008FACCC /* Frameworks */,
 				0885660C208B88E5008FACCC /* Resources */,
@@ -250,6 +294,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A3EEB442B81C37C3D91F0D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StartWarsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47CCE08792B23D7D33E8AAEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StartWars/Pods-StartWars-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StartWars/Pods-StartWars-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97BC322692A1E62665F0B473 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StartWarsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC091CDE2114D2A4EDB51457 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StartWars-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		088565EB208B88E4008FACCC /* Sources */ = {
@@ -428,15 +549,13 @@
 		};
 		08856618208B88E5008FACCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AEFAC2871E83C1F626D67A /* Pods-StartWars.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GZ9T8PQ39;
 				INFOPLIST_FILE = StartWars/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.Eliascan.StartWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +565,13 @@
 		};
 		08856619208B88E5008FACCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E36A3FFD1E70032FBB26B2 /* Pods-StartWars.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GZ9T8PQ39;
 				INFOPLIST_FILE = StartWars/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.Eliascan.StartWars;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +581,14 @@
 		};
 		0885661B208B88E5008FACCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34865523642C44FB5B40AA0 /* Pods-StartWarsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GZ9T8PQ39;
 				INFOPLIST_FILE = StartWarsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.Eliascan.StartWarsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +599,14 @@
 		};
 		0885661C208B88E5008FACCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6559DF2EAC27BCCED73DDCFE /* Pods-StartWarsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GZ9T8PQ39;
 				INFOPLIST_FILE = StartWarsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.Eliascan.StartWarsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +617,13 @@
 		};
 		0885661E208B88E5008FACCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C171702908F7E2B620FC130 /* Pods-StartWarsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GZ9T8PQ39;
 				INFOPLIST_FILE = StartWarsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.Eliascan.StartWarsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +634,13 @@
 		};
 		0885661F208B88E5008FACCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5635E3DD38CF02B4587B3261 /* Pods-StartWarsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5GZ9T8PQ39;
 				INFOPLIST_FILE = StartWarsUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ca.Eliascan.StartWarsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
