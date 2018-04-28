@@ -36,8 +36,8 @@ class ViewController: UIViewController {
             print(json as Any)
             
             let person = Person("Luke")
-            _ = Person("Alex", height: 190)
-            _ = Person("Elias", height: 185, haireColor: .blond)
+            let secondPerson = Person("Alex", height: 190)
+            let thirdPerson = Person("Elias", height: 185, haireColor: .blond)
             //print(person)
             //print(person.getName())
             self.nameLabel.text = person.name
